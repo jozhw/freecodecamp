@@ -1,0 +1,20 @@
+h1,
+p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+label {
+  display: block;
+  padding: 2px;
+  padding-top: 10px;
+}
+
+form {
+  width: 60vh;
+  margin: auto;
+}
+
+.submit {
+  margin-top: 10px;
+}

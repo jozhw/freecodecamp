@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="styles.css"/>
+
+    </head>
+  <body>
+    <h1 id="title">My Form</h1>
+    <p id="description">This is a form.</p>
+  <form id="survey-form">
+    <fieldset>
+      <label for="name" id="name-label" >Enter your name: <input id="name" type="text" placeholder="John Doe" required>
+      </label>
+      <label for="email" id="email-label">Enter your email: <input id="email" type="email" required placeholder="email@email.com"></label>
+      <label for="number" id="number-label">Enter a number: <input id="number" type="number" min="0" max="1000" placeholder="100"></label>
+      <label> Select a option:
+      <select id="dropdown">
+        
+        <option value="">(select)</option>
+        <option value="1">Option 1</option>
+        <option value="2">Option 2</option>
+
+        </select>
+        <label>
+          <label for="radio-1">Radio 1
+            <input type="radio" value="1"  name="Radio-1" id="radio-1">
+             <input type="radio" value="11"  name="Radio-1" id="radio-1-1">
+             </label>
+             <label for="radio-2" >Radio 2
+            <input type="radio" value="2"  name="Radio-2" id="radio-2">
+            <input type="radio" value="2"  name="Radio-2" id="radio-2">
+             </label>
+
+             <label>
+               <input type="checkbox" value="checkbox-1" >
+                 <input type="checkbox" value="checkbox-2" >
+
+               </label>
+              <label for="text-area">Text Area
+               <textarea id="text-area">
+
+                 </textarea>
+                 </label>
+           
+
+    
+      </fieldset>
+
+  <input type="submit" id="submit" value="Submit"/>
+    </form>
+
+
+    </body>
+
+
+  </html>
