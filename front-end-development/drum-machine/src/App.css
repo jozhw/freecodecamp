@@ -1,0 +1,17 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.drum-pads {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: pink;
+}
+.drum-pad {
+  padding: 40px;
+  border: 1px solid black;
+  cursor: pointer;
+}
