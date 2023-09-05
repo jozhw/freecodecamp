@@ -1,0 +1,30 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.operators {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  .operator {
+    padding: 10px;
+    border: 1px solid white;
+  }
+}
+
+.viewer {
+  padding: 10px;
+  border: 1px solid white;
+}
+
+#clear,
+.operators {
+  cursor: pointer;
+}
+
+#display {
+  text-align: right;
+}
