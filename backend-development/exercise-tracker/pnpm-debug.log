@@ -1,0 +1,2877 @@
+---
+  0 debug pnpm:scope: 
+    selected: 1
+    workspacePrefix: null
+  1 info pnpm: 
+    message: "A store server is running. All store manipulations are delegated to it."
+    prefix: "/app"
+  2 debug pnpm:package-json: 
+    initial: 
+      name: "fcc-exercise-tracker"
+      version: "0.1.0"
+      description: "A REST API project, part of Free Code Camp's curriculum"
+      main: "index.js"
+      scripts: 
+        start: "node index.js"
+      dependencies: 
+        cors: "^2.8.5"
+        dotenv: "^8.2.0"
+        express: "^4.18.2"
+        mongoose: "^6.0.0"
+        node: "^16.0.0"
+      repository: 
+        url: "git+https://github.com/freeCodeCamp/boilerplate-project-exercisetracker.git"
+      license: "MIT"
+      keywords: 
+        - "node"
+        - "express"
+      readme: "# Exercise Tracker\n\nThis is the boilerplate for the Exercise Tracker project. Instructions for building your project can be found at https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/exercise-tracker\n"
+      readmeFilename: "README.md"
+      gitHead: "5f2b68224943f2a8b215d1a3f5e3eb3cc802ab88"
+      bugs: 
+        url: "https://github.com/freeCodeCamp/boilerplate-project-exercisetracker/issues"
+      homepage: "https://github.com/freeCodeCamp/boilerplate-project-exercisetracker#readme"
+      _id: "fcc-exercise-tracker@0.1.0"
+    prefix: "/app"
+  3 debug pnpm:stage: 
+    prefix: "/app"
+    stage: "resolution_started"
+  4 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/cors/2.8.5"
+    requester: "/app"
+    status: "resolved"
+  5 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/dotenv/8.6.0"
+    requester: "/app"
+    status: "resolved"
+  6 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/express/4.18.2"
+    requester: "/app"
+    status: "resolved"
+  7 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/mongoose/6.12.0: wanted: {\"node\":\">=12.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  8 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mongoose/6.12.0"
+    requester: "/app"
+    status: "resolved"
+  9 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/node/16.20.2"
+    requester: "/app"
+    status: "resolved"
+  10 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/cors/2.8.5"
+    requester: "/app"
+    status: "found_in_store"
+  11 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/object-assign/4.1.1"
+    requester: "/app"
+    status: "resolved"
+  12 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/vary/1.1.2"
+    requester: "/app"
+    status: "resolved"
+  13 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/dotenv/8.6.0"
+    requester: "/app"
+    status: "found_in_store"
+  14 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/express/4.18.2"
+    requester: "/app"
+    status: "found_in_store"
+  15 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mongoose/6.12.0"
+    requester: "/app"
+    status: "found_in_store"
+  16 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/node/16.20.2"
+    requester: "/app"
+    status: "found_in_store"
+  17 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/object-assign/4.1.1"
+    requester: "/app"
+    status: "found_in_store"
+  18 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/vary/1.1.2"
+    requester: "/app"
+    status: "found_in_store"
+  19 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/accepts/1.3.8"
+    requester: "/app"
+    status: "resolved"
+  20 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/content-type/1.0.5"
+    requester: "/app"
+    status: "resolved"
+  21 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/debug/2.6.9"
+    requester: "/app"
+    status: "resolved"
+  22 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/encodeurl/1.0.2"
+    requester: "/app"
+    status: "resolved"
+  23 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/escape-html/1.0.3"
+    requester: "/app"
+    status: "resolved"
+  24 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/etag/1.8.1"
+    requester: "/app"
+    status: "resolved"
+  25 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/methods/1.1.2"
+    requester: "/app"
+    status: "resolved"
+  26 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/parseurl/1.3.3"
+    requester: "/app"
+    status: "resolved"
+  27 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/proxy-addr/2.0.7"
+    requester: "/app"
+    status: "resolved"
+  28 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/range-parser/1.2.1"
+    requester: "/app"
+    status: "resolved"
+  29 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/type-is/1.6.18"
+    requester: "/app"
+    status: "resolved"
+  30 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/bson/4.7.2"
+    requester: "/app"
+    status: "resolved"
+  31 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/node-bin-setup/1.1.3"
+    requester: "/app"
+    status: "resolved"
+  32 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/merge-descriptors/1.0.1"
+    requester: "/app"
+    status: "resolved"
+  33 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/setprototypeof/1.2.0"
+    requester: "/app"
+    status: "resolved"
+  34 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/utils-merge/1.0.1"
+    requester: "/app"
+    status: "resolved"
+  35 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/array-flatten/1.1.1"
+    requester: "/app"
+    status: "resolved"
+  36 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/content-disposition/0.5.4"
+    requester: "/app"
+    status: "resolved"
+  37 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/cookie-signature/1.0.6"
+    requester: "/app"
+    status: "resolved"
+  38 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/depd/2.0.0"
+    requester: "/app"
+    status: "resolved"
+  39 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/fresh/0.5.2"
+    requester: "/app"
+    status: "resolved"
+  40 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/on-finished/2.4.1"
+    requester: "/app"
+    status: "resolved"
+  41 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/safe-buffer/5.2.1"
+    requester: "/app"
+    status: "resolved"
+  42 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/statuses/2.0.1"
+    requester: "/app"
+    status: "resolved"
+  43 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/cookie/0.5.0"
+    requester: "/app"
+    status: "resolved"
+  44 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mpath/0.9.0"
+    requester: "/app"
+    status: "resolved"
+  45 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ms/2.1.3"
+    requester: "/app"
+    status: "resolved"
+  46 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/finalhandler/1.2.0"
+    requester: "/app"
+    status: "resolved"
+  47 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/http-errors/2.0.0"
+    requester: "/app"
+    status: "resolved"
+  48 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/accepts/1.3.8"
+    requester: "/app"
+    status: "found_in_store"
+  49 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/content-type/1.0.5"
+    requester: "/app"
+    status: "found_in_store"
+  50 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/debug/2.6.9"
+    requester: "/app"
+    status: "found_in_store"
+  51 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/encodeurl/1.0.2"
+    requester: "/app"
+    status: "found_in_store"
+  52 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/escape-html/1.0.3"
+    requester: "/app"
+    status: "found_in_store"
+  53 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/etag/1.8.1"
+    requester: "/app"
+    status: "found_in_store"
+  54 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/methods/1.1.2"
+    requester: "/app"
+    status: "found_in_store"
+  55 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/parseurl/1.3.3"
+    requester: "/app"
+    status: "found_in_store"
+  56 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/proxy-addr/2.0.7"
+    requester: "/app"
+    status: "found_in_store"
+  57 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/range-parser/1.2.1"
+    requester: "/app"
+    status: "found_in_store"
+  58 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/type-is/1.6.18"
+    requester: "/app"
+    status: "found_in_store"
+  59 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/bson/4.7.2"
+    requester: "/app"
+    status: "found_in_store"
+  60 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/node-bin-setup/1.1.3"
+    requester: "/app"
+    status: "found_in_store"
+  61 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/kareem/2.5.1: wanted: {\"node\":\">=12.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  62 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/kareem/2.5.1"
+    requester: "/app"
+    status: "resolved"
+  63 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/path-to-regexp/0.1.7"
+    requester: "/app"
+    status: "resolved"
+  64 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/serve-static/1.15.0"
+    requester: "/app"
+    status: "resolved"
+  65 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/send/0.18.0"
+    requester: "/app"
+    status: "resolved"
+  66 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/mquery/4.0.3: wanted: {\"node\":\">=12.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  67 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mquery/4.0.3"
+    requester: "/app"
+    status: "resolved"
+  68 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/merge-descriptors/1.0.1"
+    requester: "/app"
+    status: "found_in_store"
+  69 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/setprototypeof/1.2.0"
+    requester: "/app"
+    status: "found_in_store"
+  70 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/utils-merge/1.0.1"
+    requester: "/app"
+    status: "found_in_store"
+  71 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/array-flatten/1.1.1"
+    requester: "/app"
+    status: "found_in_store"
+  72 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/content-disposition/0.5.4"
+    requester: "/app"
+    status: "found_in_store"
+  73 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/cookie-signature/1.0.6"
+    requester: "/app"
+    status: "found_in_store"
+  74 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/depd/2.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  75 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/fresh/0.5.2"
+    requester: "/app"
+    status: "found_in_store"
+  76 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/on-finished/2.4.1"
+    requester: "/app"
+    status: "found_in_store"
+  77 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/safe-buffer/5.2.1"
+    requester: "/app"
+    status: "found_in_store"
+  78 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/statuses/2.0.1"
+    requester: "/app"
+    status: "found_in_store"
+  79 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/cookie/0.5.0"
+    requester: "/app"
+    status: "found_in_store"
+  80 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mpath/0.9.0"
+    requester: "/app"
+    status: "found_in_store"
+  81 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mime-types/2.1.35"
+    requester: "/app"
+    status: "resolved"
+  82 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/buffer/5.7.1"
+    requester: "/app"
+    status: "resolved"
+  83 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/body-parser/1.20.1"
+    requester: "/app"
+    status: "resolved"
+  84 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/forwarded/0.2.0"
+    requester: "/app"
+    status: "resolved"
+  85 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/media-typer/0.3.0"
+    requester: "/app"
+    status: "resolved"
+  86 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/qs/6.11.0"
+    requester: "/app"
+    status: "resolved"
+  87 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ms/2.1.3"
+    requester: "/app"
+    status: "found_in_store"
+  88 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/finalhandler/1.2.0"
+    requester: "/app"
+    status: "found_in_store"
+  89 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/http-errors/2.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  90 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/unpipe/1.0.0"
+    requester: "/app"
+    status: "resolved"
+  91 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/inherits/2.0.4"
+    requester: "/app"
+    status: "resolved"
+  92 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/toidentifier/1.0.1"
+    requester: "/app"
+    status: "resolved"
+  93 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/negotiator/0.6.3"
+    requester: "/app"
+    status: "resolved"
+  94 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ms/2.0.0"
+    requester: "/app"
+    status: "resolved"
+  95 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ipaddr.js/1.9.1"
+    requester: "/app"
+    status: "resolved"
+  96 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ee-first/1.1.1"
+    requester: "/app"
+    status: "resolved"
+  97 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/kareem/2.5.1"
+    requester: "/app"
+    status: "found_in_store"
+  98 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/path-to-regexp/0.1.7"
+    requester: "/app"
+    status: "found_in_store"
+  99 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/serve-static/1.15.0"
+    requester: "/app"
+    status: "found_in_store"
+  100 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/send/0.18.0"
+    requester: "/app"
+    status: "found_in_store"
+  101 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mquery/4.0.3"
+    requester: "/app"
+    status: "found_in_store"
+  102 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/destroy/1.2.0"
+    requester: "/app"
+    status: "resolved"
+  103 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/debug/4.3.4"
+    requester: "/app"
+    status: "resolved"
+  104 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/sift/16.0.1"
+    requester: "/app"
+    status: "resolved"
+  105 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mime-types/2.1.35"
+    requester: "/app"
+    status: "found_in_store"
+  106 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/buffer/5.7.1"
+    requester: "/app"
+    status: "found_in_store"
+  107 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/body-parser/1.20.1"
+    requester: "/app"
+    status: "found_in_store"
+  108 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/forwarded/0.2.0"
+    requester: "/app"
+    status: "found_in_store"
+  109 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/media-typer/0.3.0"
+    requester: "/app"
+    status: "found_in_store"
+  110 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/qs/6.11.0"
+    requester: "/app"
+    status: "found_in_store"
+  111 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/base64-js/1.5.1"
+    requester: "/app"
+    status: "resolved"
+  112 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ieee754/1.2.1"
+    requester: "/app"
+    status: "resolved"
+  113 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/side-channel/1.0.4"
+    requester: "/app"
+    status: "resolved"
+  114 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/unpipe/1.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  115 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/inherits/2.0.4"
+    requester: "/app"
+    status: "found_in_store"
+  116 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/toidentifier/1.0.1"
+    requester: "/app"
+    status: "found_in_store"
+  117 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/negotiator/0.6.3"
+    requester: "/app"
+    status: "found_in_store"
+  118 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ms/2.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  119 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ipaddr.js/1.9.1"
+    requester: "/app"
+    status: "found_in_store"
+  120 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ee-first/1.1.1"
+    requester: "/app"
+    status: "found_in_store"
+  121 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mime/1.6.0"
+    requester: "/app"
+    status: "resolved"
+  122 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/bytes/3.1.2"
+    requester: "/app"
+    status: "resolved"
+  123 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/iconv-lite/0.4.24"
+    requester: "/app"
+    status: "resolved"
+  124 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/raw-body/2.5.1"
+    requester: "/app"
+    status: "resolved"
+  125 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/destroy/1.2.0"
+    requester: "/app"
+    status: "found_in_store"
+  126 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/debug/4.3.4"
+    requester: "/app"
+    status: "found_in_store"
+  127 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/sift/16.0.1"
+    requester: "/app"
+    status: "found_in_store"
+  128 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ms/2.1.2"
+    requester: "/app"
+    status: "resolved"
+  129 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mime-db/1.52.0"
+    requester: "/app"
+    status: "resolved"
+  130 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/base64-js/1.5.1"
+    requester: "/app"
+    status: "found_in_store"
+  131 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ieee754/1.2.1"
+    requester: "/app"
+    status: "found_in_store"
+  132 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/side-channel/1.0.4"
+    requester: "/app"
+    status: "found_in_store"
+  133 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/call-bind/1.0.2"
+    requester: "/app"
+    status: "resolved"
+  134 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/get-intrinsic/1.2.1"
+    requester: "/app"
+    status: "resolved"
+  135 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/object-inspect/1.12.3"
+    requester: "/app"
+    status: "resolved"
+  136 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mime/1.6.0"
+    requester: "/app"
+    status: "found_in_store"
+  137 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/bytes/3.1.2"
+    requester: "/app"
+    status: "found_in_store"
+  138 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/iconv-lite/0.4.24"
+    requester: "/app"
+    status: "found_in_store"
+  139 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/raw-body/2.5.1"
+    requester: "/app"
+    status: "found_in_store"
+  140 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ms/2.1.2"
+    requester: "/app"
+    status: "found_in_store"
+  141 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mime-db/1.52.0"
+    requester: "/app"
+    status: "found_in_store"
+  142 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/call-bind/1.0.2"
+    requester: "/app"
+    status: "found_in_store"
+  143 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/get-intrinsic/1.2.1"
+    requester: "/app"
+    status: "found_in_store"
+  144 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/object-inspect/1.12.3"
+    requester: "/app"
+    status: "found_in_store"
+  145 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/safer-buffer/2.1.2"
+    requester: "/app"
+    status: "resolved"
+  146 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/function-bind/1.1.1"
+    requester: "/app"
+    status: "resolved"
+  147 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/has/1.0.3"
+    requester: "/app"
+    status: "resolved"
+  148 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/has-proto/1.0.1"
+    requester: "/app"
+    status: "resolved"
+  149 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/has-symbols/1.0.3"
+    requester: "/app"
+    status: "resolved"
+  150 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/safer-buffer/2.1.2"
+    requester: "/app"
+    status: "found_in_store"
+  151 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/function-bind/1.1.1"
+    requester: "/app"
+    status: "found_in_store"
+  152 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/has/1.0.3"
+    requester: "/app"
+    status: "found_in_store"
+  153 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/has-proto/1.0.1"
+    requester: "/app"
+    status: "found_in_store"
+  154 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/has-symbols/1.0.3"
+    requester: "/app"
+    status: "found_in_store"
+  155 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/mongodb/4.17.1: wanted: {\"node\":\">=12.9.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  156 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mongodb/4.17.1"
+    requester: "/app"
+    status: "resolved"
+  157 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mongodb/4.17.1"
+    requester: "/app"
+    status: "found_in_store"
+  158 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/credential-providers/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  159 debug pnpm:skipped-optional-dependency: 
+    details: "Error: Unsupported engine for registry.npmjs.org/@aws-sdk/credential-providers/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    package: 
+      id: "registry.npmjs.org/@aws-sdk/credential-providers/3.410.0"
+      name: "@aws-sdk/credential-providers"
+      version: "3.410.0"
+    prefix: "/app"
+    reason: "unsupported_engine"
+  160 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/credential-providers/3.410.0"
+    requester: "/app"
+    status: "resolved"
+  161 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@mongodb-js/saslprep/1.1.0"
+    requester: "/app"
+    status: "resolved"
+  162 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mongodb-connection-string-url/2.6.0"
+    requester: "/app"
+    status: "resolved"
+  163 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/socks/2.7.1"
+    requester: "/app"
+    status: "resolved"
+  164 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/credential-providers/3.410.0"
+    requester: "/app"
+    status: "found_in_store"
+  165 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@mongodb-js/saslprep/1.1.0"
+    requester: "/app"
+    status: "found_in_store"
+  166 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/mongodb-connection-string-url/2.6.0"
+    requester: "/app"
+    status: "found_in_store"
+  167 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/socks/2.7.1"
+    requester: "/app"
+    status: "found_in_store"
+  168 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/types/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  169 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/types/3.410.0"
+    requester: "/app"
+    status: "resolved"
+  170 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/credential-provider-imds/2.0.10: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  171 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/credential-provider-imds/2.0.10"
+    requester: "/app"
+    status: "resolved"
+  172 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/property-provider/2.0.8: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  173 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/property-provider/2.0.8"
+    requester: "/app"
+    status: "resolved"
+  174 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  175 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/types/2.3.1"
+    requester: "/app"
+    status: "resolved"
+  176 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/tslib/2.6.2"
+    requester: "/app"
+    status: "resolved"
+  177 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/sparse-bitfield/3.0.3"
+    requester: "/app"
+    status: "resolved"
+  178 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@types/whatwg-url/8.2.2"
+    requester: "/app"
+    status: "resolved"
+  179 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/whatwg-url/11.0.0: wanted: {\"node\":\">=12\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  180 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/whatwg-url/11.0.0"
+    requester: "/app"
+    status: "resolved"
+  181 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ip/2.0.0"
+    requester: "/app"
+    status: "resolved"
+  182 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/smart-buffer/4.2.0"
+    requester: "/app"
+    status: "resolved"
+  183 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/types/3.410.0"
+    requester: "/app"
+    status: "found_in_store"
+  184 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/credential-provider-imds/2.0.10"
+    requester: "/app"
+    status: "found_in_store"
+  185 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/property-provider/2.0.8"
+    requester: "/app"
+    status: "found_in_store"
+  186 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/types/2.3.1"
+    requester: "/app"
+    status: "found_in_store"
+  187 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/tslib/2.6.2"
+    requester: "/app"
+    status: "found_in_store"
+  188 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/sparse-bitfield/3.0.3"
+    requester: "/app"
+    status: "found_in_store"
+  189 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@types/whatwg-url/8.2.2"
+    requester: "/app"
+    status: "found_in_store"
+  190 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/whatwg-url/11.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  191 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/ip/2.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  192 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/smart-buffer/4.2.0"
+    requester: "/app"
+    status: "found_in_store"
+  193 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  194 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/node-config-provider/2.0.10: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  195 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/node-config-provider/2.0.10"
+    requester: "/app"
+    status: "resolved"
+  196 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/property-provider/2.0.8: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  197 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  198 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/url-parser/2.0.7"
+    requester: "/app"
+    status: "resolved"
+  199 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  200 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/memory-pager/1.5.0"
+    requester: "/app"
+    status: "resolved"
+  201 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@types/node/20.6.0"
+    requester: "/app"
+    status: "resolved"
+  202 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@types/webidl-conversions/7.0.0"
+    requester: "/app"
+    status: "resolved"
+  203 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/tr46/3.0.0: wanted: {\"node\":\">=12\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  204 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/tr46/3.0.0"
+    requester: "/app"
+    status: "resolved"
+  205 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/webidl-conversions/7.0.0: wanted: {\"node\":\">=12\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  206 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/webidl-conversions/7.0.0"
+    requester: "/app"
+    status: "resolved"
+  207 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/node-config-provider/2.0.10"
+    requester: "/app"
+    status: "found_in_store"
+  208 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/url-parser/2.0.7"
+    requester: "/app"
+    status: "found_in_store"
+  209 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/memory-pager/1.5.0"
+    requester: "/app"
+    status: "found_in_store"
+  210 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@types/node/20.6.0"
+    requester: "/app"
+    status: "found_in_store"
+  211 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@types/webidl-conversions/7.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  212 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/tr46/3.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  213 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/webidl-conversions/7.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  214 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/property-provider/2.0.8: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  215 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/shared-ini-file-loader/2.0.9: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  216 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/shared-ini-file-loader/2.0.9"
+    requester: "/app"
+    status: "resolved"
+  217 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  218 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/querystring-parser/2.0.7: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  219 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/querystring-parser/2.0.7"
+    requester: "/app"
+    status: "resolved"
+  220 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  221 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/punycode/2.3.0"
+    requester: "/app"
+    status: "resolved"
+  222 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/shared-ini-file-loader/2.0.9"
+    requester: "/app"
+    status: "found_in_store"
+  223 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/querystring-parser/2.0.7"
+    requester: "/app"
+    status: "found_in_store"
+  224 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/punycode/2.3.0"
+    requester: "/app"
+    status: "found_in_store"
+  225 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  226 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  227 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/credential-provider-web-identity/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  228 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/credential-provider-web-identity/3.410.0"
+    requester: "/app"
+    status: "resolved"
+  229 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/credential-provider-web-identity/3.410.0"
+    requester: "/app"
+    status: "found_in_store"
+  230 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/types/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  231 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/property-provider/2.0.8: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  232 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  233 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/credential-provider-env/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  234 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/credential-provider-env/3.410.0"
+    requester: "/app"
+    status: "resolved"
+  235 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/credential-provider-process/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  236 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/credential-provider-process/3.410.0"
+    requester: "/app"
+    status: "resolved"
+  237 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/credential-provider-env/3.410.0"
+    requester: "/app"
+    status: "found_in_store"
+  238 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/types/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  239 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/property-provider/2.0.8: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  240 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  241 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/credential-provider-process/3.410.0"
+    requester: "/app"
+    status: "found_in_store"
+  242 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/types/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  243 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/property-provider/2.0.8: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  244 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/shared-ini-file-loader/2.0.9: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  245 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  246 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/credential-provider-sso/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  247 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/credential-provider-sso/3.410.0"
+    requester: "/app"
+    status: "resolved"
+  248 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/credential-provider-ini/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  249 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/credential-provider-ini/3.410.0"
+    requester: "/app"
+    status: "resolved"
+  250 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/credential-provider-node/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  251 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/credential-provider-node/3.410.0"
+    requester: "/app"
+    status: "resolved"
+  252 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/credential-provider-cognito-identity/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  253 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/credential-provider-cognito-identity/3.410.0"
+    requester: "/app"
+    status: "resolved"
+  254 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/client-sso/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  255 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/client-sso/3.410.0"
+    requester: "/app"
+    status: "resolved"
+  256 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/client-sts/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  257 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/client-sts/3.410.0"
+    requester: "/app"
+    status: "resolved"
+  258 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/credential-provider-sso/3.410.0"
+    requester: "/app"
+    status: "found_in_store"
+  259 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/client-sso/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  260 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/token-providers/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  261 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/token-providers/3.410.0"
+    requester: "/app"
+    status: "resolved"
+  262 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/types/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  263 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/property-provider/2.0.8: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  264 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/shared-ini-file-loader/2.0.9: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  265 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  266 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/client-cognito-identity/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  267 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/client-cognito-identity/3.410.0"
+    requester: "/app"
+    status: "resolved"
+  268 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/credential-provider-ini/3.410.0"
+    requester: "/app"
+    status: "found_in_store"
+  269 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/credential-provider-node/3.410.0"
+    requester: "/app"
+    status: "found_in_store"
+  270 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/credential-provider-cognito-identity/3.410.0"
+    requester: "/app"
+    status: "found_in_store"
+  271 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/client-sso/3.410.0"
+    requester: "/app"
+    status: "found_in_store"
+  272 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/client-sts/3.410.0"
+    requester: "/app"
+    status: "found_in_store"
+  273 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/credential-provider-env/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  274 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/credential-provider-web-identity/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  275 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/types/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  276 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/credential-provider-imds/2.0.10: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  277 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/property-provider/2.0.8: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  278 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/shared-ini-file-loader/2.0.9: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  279 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  280 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/types/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  281 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/credential-provider-imds/2.0.10: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  282 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/property-provider/2.0.8: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  283 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/shared-ini-file-loader/2.0.9: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  284 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  285 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/types/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  286 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/property-provider/2.0.8: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  287 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  288 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-crypto/sha256-browser/3.0.0"
+    requester: "/app"
+    status: "resolved"
+  289 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-crypto/sha256-js/3.0.0"
+    requester: "/app"
+    status: "resolved"
+  290 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/middleware-host-header/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  291 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/middleware-host-header/3.410.0"
+    requester: "/app"
+    status: "resolved"
+  292 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/middleware-logger/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  293 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/middleware-logger/3.410.0"
+    requester: "/app"
+    status: "resolved"
+  294 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/middleware-recursion-detection/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  295 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/middleware-recursion-detection/3.410.0"
+    requester: "/app"
+    status: "resolved"
+  296 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/middleware-user-agent/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  297 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/middleware-user-agent/3.410.0"
+    requester: "/app"
+    status: "resolved"
+  298 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/types/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  299 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/util-endpoints/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  300 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/util-endpoints/3.410.0"
+    requester: "/app"
+    status: "resolved"
+  301 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/util-user-agent-browser/3.410.0"
+    requester: "/app"
+    status: "resolved"
+  302 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/config-resolver/2.0.8: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  303 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/config-resolver/2.0.8"
+    requester: "/app"
+    status: "resolved"
+  304 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/fetch-http-handler/2.1.3"
+    requester: "/app"
+    status: "resolved"
+  305 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/hash-node/2.0.7: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  306 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/hash-node/2.0.7"
+    requester: "/app"
+    status: "resolved"
+  307 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/invalid-dependency/2.0.7"
+    requester: "/app"
+    status: "resolved"
+  308 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/middleware-content-length/2.0.9: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  309 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/middleware-content-length/2.0.9"
+    requester: "/app"
+    status: "resolved"
+  310 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/middleware-endpoint/2.0.7: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  311 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/middleware-endpoint/2.0.7"
+    requester: "/app"
+    status: "resolved"
+  312 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/middleware-retry/2.0.10: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  313 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/middleware-retry/2.0.10"
+    requester: "/app"
+    status: "resolved"
+  314 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/middleware-serde/2.0.7: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  315 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/middleware-serde/2.0.7"
+    requester: "/app"
+    status: "resolved"
+  316 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/middleware-stack/2.0.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  317 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/middleware-stack/2.0.0"
+    requester: "/app"
+    status: "resolved"
+  318 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/node-config-provider/2.0.10: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  319 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/node-http-handler/2.1.3: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  320 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/node-http-handler/2.1.3"
+    requester: "/app"
+    status: "resolved"
+  321 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/protocol-http/3.0.3: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  322 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/protocol-http/3.0.3"
+    requester: "/app"
+    status: "resolved"
+  323 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/smithy-client/2.1.4: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  324 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/smithy-client/2.1.4"
+    requester: "/app"
+    status: "resolved"
+  325 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  326 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/util-base64/2.0.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  327 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/util-base64/2.0.0"
+    requester: "/app"
+    status: "resolved"
+  328 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/util-body-length-browser/2.0.0"
+    requester: "/app"
+    status: "resolved"
+  329 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/util-body-length-node/2.1.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  330 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/util-body-length-node/2.1.0"
+    requester: "/app"
+    status: "resolved"
+  331 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/util-defaults-mode-browser/2.0.8"
+    requester: "/app"
+    status: "resolved"
+  332 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/util-defaults-mode-node/2.0.10"
+    requester: "/app"
+    status: "resolved"
+  333 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/util-retry/2.0.0: wanted: {\"node\":\">= 14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  334 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/util-retry/2.0.0"
+    requester: "/app"
+    status: "resolved"
+  335 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/util-utf8/2.0.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  336 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/util-utf8/2.0.0"
+    requester: "/app"
+    status: "resolved"
+  337 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/middleware-recursion-detection/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  338 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/middleware-sdk-sts/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  339 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/middleware-sdk-sts/3.410.0"
+    requester: "/app"
+    status: "resolved"
+  340 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/types/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  341 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/config-resolver/2.0.8: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  342 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/util-base64/2.0.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  343 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/util-body-length-node/2.1.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  344 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/util-retry/2.0.0: wanted: {\"node\":\">= 14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  345 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/util-utf8/2.0.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  346 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/fast-xml-parser/4.2.5"
+    requester: "/app"
+    status: "resolved"
+  347 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/credential-provider-process/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  348 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/hash-node/2.0.7: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  349 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/middleware-content-length/2.0.9: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  350 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/middleware-endpoint/2.0.7: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  351 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/middleware-retry/2.0.10: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  352 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/middleware-serde/2.0.7: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  353 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/middleware-stack/2.0.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  354 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/node-config-provider/2.0.10: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  355 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/node-http-handler/2.1.3: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  356 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/protocol-http/3.0.3: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  357 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/smithy-client/2.1.4: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  358 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  359 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/util-endpoints/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  360 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/middleware-signing/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  361 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/middleware-signing/3.410.0"
+    requester: "/app"
+    status: "resolved"
+  362 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/util-user-agent-node/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  363 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/util-user-agent-node/3.410.0"
+    requester: "/app"
+    status: "resolved"
+  364 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/credential-provider-web-identity/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  365 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/credential-provider-sso/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  366 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/middleware-logger/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  367 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/credential-provider-env/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  368 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/middleware-host-header/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  369 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/credential-provider-ini/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  370 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/middleware-user-agent/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  371 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/credential-provider-process/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  372 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/credential-provider-node/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  373 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/util-user-agent-node/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  374 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/credential-provider-sso/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  375 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/client-cognito-identity/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  376 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/token-providers/3.410.0"
+    requester: "/app"
+    status: "found_in_store"
+  377 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/client-cognito-identity/3.410.0"
+    requester: "/app"
+    status: "found_in_store"
+  378 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/middleware-host-header/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  379 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/middleware-logger/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  380 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/middleware-recursion-detection/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  381 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/middleware-user-agent/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  382 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/types/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  383 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/util-endpoints/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  384 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/util-user-agent-node/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  385 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/config-resolver/2.0.8: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  386 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/hash-node/2.0.7: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  387 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/middleware-content-length/2.0.9: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  388 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/middleware-endpoint/2.0.7: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  389 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/middleware-retry/2.0.10: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  390 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/middleware-serde/2.0.7: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  391 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/middleware-stack/2.0.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  392 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/node-config-provider/2.0.10: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  393 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/node-http-handler/2.1.3: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  394 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/property-provider/2.0.8: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  395 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/protocol-http/3.0.3: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  396 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/shared-ini-file-loader/2.0.9: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  397 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/smithy-client/2.1.4: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  398 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  399 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/util-base64/2.0.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  400 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/util-body-length-node/2.1.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  401 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/util-retry/2.0.0: wanted: {\"node\":\">= 14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  402 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/util-utf8/2.0.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  403 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/credential-provider-node/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  404 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/middleware-host-header/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  405 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/middleware-logger/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  406 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/middleware-recursion-detection/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  407 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/middleware-signing/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  408 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/middleware-user-agent/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  409 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/types/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  410 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/util-endpoints/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  411 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/util-user-agent-node/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  412 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/config-resolver/2.0.8: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  413 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/hash-node/2.0.7: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  414 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-crypto/sha256-browser/3.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  415 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-crypto/sha256-js/3.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  416 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/middleware-content-length/2.0.9: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  417 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/middleware-endpoint/2.0.7: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  418 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/middleware-retry/2.0.10: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  419 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/middleware-serde/2.0.7: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  420 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/middleware-stack/2.0.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  421 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/node-config-provider/2.0.10: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  422 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/node-http-handler/2.1.3: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  423 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/protocol-http/3.0.3: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  424 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/smithy-client/2.1.4: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  425 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  426 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/util-base64/2.0.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  427 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/util-body-length-node/2.1.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  428 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/util-retry/2.0.0: wanted: {\"node\":\">= 14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  429 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/util-utf8/2.0.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  430 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/client-sts/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  431 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/middleware-host-header/3.410.0"
+    requester: "/app"
+    status: "found_in_store"
+  432 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/middleware-logger/3.410.0"
+    requester: "/app"
+    status: "found_in_store"
+  433 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/middleware-recursion-detection/3.410.0"
+    requester: "/app"
+    status: "found_in_store"
+  434 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/middleware-user-agent/3.410.0"
+    requester: "/app"
+    status: "found_in_store"
+  435 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/util-endpoints/3.410.0"
+    requester: "/app"
+    status: "found_in_store"
+  436 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/util-user-agent-browser/3.410.0"
+    requester: "/app"
+    status: "found_in_store"
+  437 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/config-resolver/2.0.8"
+    requester: "/app"
+    status: "found_in_store"
+  438 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/fetch-http-handler/2.1.3"
+    requester: "/app"
+    status: "found_in_store"
+  439 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/hash-node/2.0.7"
+    requester: "/app"
+    status: "found_in_store"
+  440 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/invalid-dependency/2.0.7"
+    requester: "/app"
+    status: "found_in_store"
+  441 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/middleware-content-length/2.0.9"
+    requester: "/app"
+    status: "found_in_store"
+  442 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/middleware-endpoint/2.0.7"
+    requester: "/app"
+    status: "found_in_store"
+  443 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/middleware-retry/2.0.10"
+    requester: "/app"
+    status: "found_in_store"
+  444 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/middleware-serde/2.0.7"
+    requester: "/app"
+    status: "found_in_store"
+  445 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/middleware-stack/2.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  446 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/node-http-handler/2.1.3"
+    requester: "/app"
+    status: "found_in_store"
+  447 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/protocol-http/3.0.3"
+    requester: "/app"
+    status: "found_in_store"
+  448 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/smithy-client/2.1.4"
+    requester: "/app"
+    status: "found_in_store"
+  449 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/util-base64/2.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  450 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/util-body-length-browser/2.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  451 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/util-body-length-node/2.1.0"
+    requester: "/app"
+    status: "found_in_store"
+  452 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/util-defaults-mode-browser/2.0.8"
+    requester: "/app"
+    status: "found_in_store"
+  453 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/util-defaults-mode-node/2.0.10"
+    requester: "/app"
+    status: "found_in_store"
+  454 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/util-retry/2.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  455 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/util-utf8/2.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  456 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/middleware-sdk-sts/3.410.0"
+    requester: "/app"
+    status: "found_in_store"
+  457 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-crypto/ie11-detection/3.0.0"
+    requester: "/app"
+    status: "resolved"
+  458 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-crypto/supports-web-crypto/3.0.0"
+    requester: "/app"
+    status: "resolved"
+  459 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-crypto/util/3.0.0"
+    requester: "/app"
+    status: "resolved"
+  460 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/types/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  461 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/util-locate-window/3.310.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  462 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/util-locate-window/3.310.0"
+    requester: "/app"
+    status: "resolved"
+  463 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/util-utf8-browser/3.259.0"
+    requester: "/app"
+    status: "resolved"
+  464 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/tslib/1.14.1"
+    requester: "/app"
+    status: "resolved"
+  465 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/types/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  466 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/types/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  467 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/protocol-http/3.0.3: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  468 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  469 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/types/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  470 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  471 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/types/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  472 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/protocol-http/3.0.3: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  473 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  474 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/types/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  475 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/util-endpoints/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  476 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/protocol-http/3.0.3: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  477 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  478 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/types/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  479 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/types/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  480 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  481 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/bowser/2.11.0"
+    requester: "/app"
+    status: "resolved"
+  482 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/node-config-provider/2.0.10: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  483 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  484 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/util-config-provider/2.0.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  485 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/util-config-provider/2.0.0"
+    requester: "/app"
+    status: "resolved"
+  486 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/util-middleware/2.0.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  487 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/util-middleware/2.0.0"
+    requester: "/app"
+    status: "resolved"
+  488 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/protocol-http/3.0.3: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  489 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/querystring-builder/2.0.7: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  490 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/querystring-builder/2.0.7"
+    requester: "/app"
+    status: "resolved"
+  491 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  492 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/util-base64/2.0.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  493 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  494 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/util-buffer-from/2.0.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  495 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/util-buffer-from/2.0.0"
+    requester: "/app"
+    status: "resolved"
+  496 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/util-utf8/2.0.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  497 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  498 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/protocol-http/3.0.3: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  499 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  500 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/middleware-serde/2.0.7: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  501 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  502 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/util-middleware/2.0.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  503 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/node-config-provider/2.0.10: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  504 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/protocol-http/3.0.3: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  505 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/service-error-classification/2.0.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  506 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/service-error-classification/2.0.0"
+    requester: "/app"
+    status: "resolved"
+  507 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  508 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/util-middleware/2.0.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  509 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/util-retry/2.0.0: wanted: {\"node\":\">= 14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  510 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/fast-xml-parser/4.2.5"
+    requester: "/app"
+    status: "found_in_store"
+  511 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/uuid/8.3.2"
+    requester: "/app"
+    status: "resolved"
+  512 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  513 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/abort-controller/2.0.7: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  514 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/abort-controller/2.0.7"
+    requester: "/app"
+    status: "resolved"
+  515 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/protocol-http/3.0.3: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  516 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/querystring-builder/2.0.7: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  517 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  518 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  519 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/middleware-stack/2.0.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  520 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  521 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/util-stream/2.0.10: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  522 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/util-stream/2.0.10"
+    requester: "/app"
+    status: "resolved"
+  523 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/util-buffer-from/2.0.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  524 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/property-provider/2.0.8: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  525 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  526 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/config-resolver/2.0.8: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  527 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/credential-provider-imds/2.0.10: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  528 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/node-config-provider/2.0.10: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  529 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/property-provider/2.0.8: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  530 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  531 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/service-error-classification/2.0.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  532 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/util-buffer-from/2.0.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  533 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/middleware-signing/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  534 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/types/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  535 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  536 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/middleware-signing/3.410.0"
+    requester: "/app"
+    status: "found_in_store"
+  537 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/util-user-agent-node/3.410.0"
+    requester: "/app"
+    status: "found_in_store"
+  538 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/strnum/1.0.5"
+    requester: "/app"
+    status: "resolved"
+  539 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/types/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  540 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/property-provider/2.0.8: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  541 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/protocol-http/3.0.3: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  542 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/signature-v4/2.0.7: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  543 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/signature-v4/2.0.7"
+    requester: "/app"
+    status: "resolved"
+  544 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  545 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/util-middleware/2.0.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  546 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/types/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  547 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/node-config-provider/2.0.10: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  548 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  549 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-crypto/ie11-detection/3.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  550 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-crypto/supports-web-crypto/3.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  551 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-crypto/util/3.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  552 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/util-locate-window/3.310.0"
+    requester: "/app"
+    status: "found_in_store"
+  553 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-sdk/util-utf8-browser/3.259.0"
+    requester: "/app"
+    status: "found_in_store"
+  554 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/tslib/1.14.1"
+    requester: "/app"
+    status: "found_in_store"
+  555 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/bowser/2.11.0"
+    requester: "/app"
+    status: "found_in_store"
+  556 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/types/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  557 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/util-config-provider/2.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  558 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/util-middleware/2.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  559 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/querystring-builder/2.0.7"
+    requester: "/app"
+    status: "found_in_store"
+  560 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/util-buffer-from/2.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  561 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/service-error-classification/2.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  562 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/uuid/8.3.2"
+    requester: "/app"
+    status: "found_in_store"
+  563 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/abort-controller/2.0.7"
+    requester: "/app"
+    status: "found_in_store"
+  564 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  565 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/util-uri-escape/2.0.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  566 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/util-uri-escape/2.0.0"
+    requester: "/app"
+    status: "resolved"
+  567 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/strnum/1.0.5"
+    requester: "/app"
+    status: "found_in_store"
+  568 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/signature-v4/2.0.7"
+    requester: "/app"
+    status: "found_in_store"
+  569 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/util-stream/2.0.10"
+    requester: "/app"
+    status: "found_in_store"
+  570 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  571 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/node-http-handler/2.1.3: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  572 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  573 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/util-base64/2.0.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  574 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/util-buffer-from/2.0.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  575 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/util-hex-encoding/2.0.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  576 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/util-hex-encoding/2.0.0"
+    requester: "/app"
+    status: "resolved"
+  577 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/util-utf8/2.0.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  578 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/eventstream-codec/2.0.7"
+    requester: "/app"
+    status: "resolved"
+  579 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/is-array-buffer/2.0.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  580 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/is-array-buffer/2.0.0"
+    requester: "/app"
+    status: "resolved"
+  581 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  582 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/is-array-buffer/2.0.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  583 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/util-uri-escape/2.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  584 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/util-hex-encoding/2.0.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  585 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/util-middleware/2.0.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  586 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/util-uri-escape/2.0.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  587 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/util-utf8/2.0.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  588 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/util-hex-encoding/2.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  589 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/eventstream-codec/2.0.7"
+    requester: "/app"
+    status: "found_in_store"
+  590 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@smithy/is-array-buffer/2.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  591 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-crypto/crc32/3.0.0"
+    requester: "/app"
+    status: "resolved"
+  592 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/types/2.3.1: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  593 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@smithy/util-hex-encoding/2.0.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  594 debug pnpm:progress: 
+    packageId: "registry.npmjs.org/@aws-crypto/crc32/3.0.0"
+    requester: "/app"
+    status: "found_in_store"
+  595 warn pnpm:install-check: 
+    message: "Unsupported engine for registry.npmjs.org/@aws-sdk/types/3.410.0: wanted: {\"node\":\">=14.0.0\"} (current: {\"node\":\"v10.24.1\",\"pnpm\":\"2.25.5\"})"
+    prefix: "/app"
+  596 debug pnpm:stage: 
+    prefix: "/app"
+    stage: "resolution_done"
+  597 debug pnpm:package-json: 
+    prefix: "/app"
+    updated: 
+      name: "fcc-exercise-tracker"
+      version: "0.1.0"
+      description: "A REST API project, part of Free Code Camp's curriculum"
+      main: "index.js"
+      scripts: 
+        start: "node index.js"
+      dependencies: 
+        cors: "^2.8.5"
+        dotenv: "^8.2.0"
+        express: "^4.18.2"
+        mongoose: "^6.0.0"
+        node: "^16.0.0"
+      repository: 
+        url: "git+https://github.com/freeCodeCamp/boilerplate-project-exercisetracker.git"
+      license: "MIT"
+      keywords: 
+        - "node"
+        - "express"
+      readme: "# Exercise Tracker\n\nThis is the boilerplate for the Exercise Tracker project. Instructions for building your project can be found at https://www.freecodecamp.org/learn/apis-and-microservices/apis-and-microservices-projects/exercise-tracker\n"
+      readmeFilename: "README.md"
+      gitHead: "5f2b68224943f2a8b215d1a3f5e3eb3cc802ab88"
+      bugs: 
+        url: "https://github.com/freeCodeCamp/boilerplate-project-exercisetracker/issues"
+      homepage: "https://github.com/freeCodeCamp/boilerplate-project-exercisetracker#readme"
+      _id: "fcc-exercise-tracker@0.1.0"
+  598 warn pnpm: 
+    message: "mongoose > mongodb > @aws-sdk/credential-providers > @aws-sdk/client-cognito-identity > @aws-sdk/client-sts > @aws-sdk/credential-provider-node > @aws-sdk/credential-provider-ini > @aws-sdk/credential-provider-sso > @aws-sdk/client-sso: @aws-sdk/util-user-agent-node@3.410.0 requires a peer of aws-crt@>=1.0.0 but none was installed."
+    prefix: "/app"
+  599 warn pnpm: 
+    message: "mongoose > mongodb > @aws-sdk/credential-providers > @aws-sdk/client-cognito-identity > @aws-sdk/client-sts > @aws-sdk/credential-provider-node > @aws-sdk/credential-provider-ini > @aws-sdk/credential-provider-sso > @aws-sdk/token-providers: @aws-sdk/util-user-agent-node@3.410.0 requires a peer of aws-crt@>=1.0.0 but none was installed."
+    prefix: "/app"
+  600 warn pnpm: 
+    message: "mongoose > mongodb > @aws-sdk/credential-providers > @aws-sdk/client-cognito-identity > @aws-sdk/client-sts > @aws-sdk/credential-provider-node > @aws-sdk/credential-provider-sso > @aws-sdk/client-sso: @aws-sdk/util-user-agent-node@3.410.0 requires a peer of aws-crt@>=1.0.0 but none was installed."
+    prefix: "/app"
+  601 warn pnpm: 
+    message: "mongoose > mongodb > @aws-sdk/credential-providers > @aws-sdk/client-cognito-identity > @aws-sdk/client-sts > @aws-sdk/credential-provider-node > @aws-sdk/credential-provider-sso > @aws-sdk/token-providers: @aws-sdk/util-user-agent-node@3.410.0 requires a peer of aws-crt@>=1.0.0 but none was installed."
+    prefix: "/app"
+  602 warn pnpm: 
+    message: "mongoose > mongodb > @aws-sdk/credential-providers > @aws-sdk/client-cognito-identity > @aws-sdk/client-sts: @aws-sdk/util-user-agent-node@3.410.0 requires a peer of aws-crt@>=1.0.0 but none was installed."
+    prefix: "/app"
+  603 warn pnpm: 
+    message: "mongoose > mongodb > @aws-sdk/credential-providers > @aws-sdk/client-cognito-identity > @aws-sdk/credential-provider-node > @aws-sdk/credential-provider-sso > @aws-sdk/client-sso: @aws-sdk/util-user-agent-node@3.410.0 requires a peer of aws-crt@>=1.0.0 but none was installed."
+    prefix: "/app"
+  604 warn pnpm: 
+    message: "mongoose > mongodb > @aws-sdk/credential-providers > @aws-sdk/client-cognito-identity > @aws-sdk/credential-provider-node > @aws-sdk/credential-provider-sso > @aws-sdk/token-providers: @aws-sdk/util-user-agent-node@3.410.0 requires a peer of aws-crt@>=1.0.0 but none was installed."
+    prefix: "/app"
+  605 warn pnpm: 
+    message: "mongoose > mongodb > @aws-sdk/credential-providers > @aws-sdk/client-cognito-identity: @aws-sdk/util-user-agent-node@3.410.0 requires a peer of aws-crt@>=1.0.0 but none was installed."
+    prefix: "/app"
+  606 warn pnpm: 
+    message: "mongoose > mongodb > @aws-sdk/credential-providers > @aws-sdk/client-sso: @aws-sdk/util-user-agent-node@3.410.0 requires a peer of aws-crt@>=1.0.0 but none was installed."
+    prefix: "/app"
+  607 warn pnpm: 
+    message: "mongoose > mongodb > @aws-sdk/credential-providers > @aws-sdk/client-sts: @aws-sdk/util-user-agent-node@3.410.0 requires a peer of aws-crt@>=1.0.0 but none was installed."
+    prefix: "/app"
+  608 warn pnpm: 
+    message: "mongoose > mongodb > @aws-sdk/credential-providers > @aws-sdk/credential-provider-ini > @aws-sdk/credential-provider-sso > @aws-sdk/token-providers: @aws-sdk/util-user-agent-node@3.410.0 requires a peer of aws-crt@>=1.0.0 but none was installed."
+    prefix: "/app"
+  609 warn pnpm: 
+    message: "mongoose > mongodb > @aws-sdk/credential-providers > @aws-sdk/credential-provider-sso > @aws-sdk/token-providers: @aws-sdk/util-user-agent-node@3.410.0 requires a peer of aws-crt@>=1.0.0 but none was installed."
+    prefix: "/app"
+  610 debug pnpm:stats: 
+    prefix: "/app"
+    removed: 0
+  611 debug pnpm:stage: 
+    prefix: "/app"
+    stage: "importing_started"
+  612 debug pnpm:stats: 
+    added: 89
+    prefix: "/app"
+  613 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/object-assign/4.1.1/node_modules/object-assign"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/cors/2.8.5/node_modules/object-assign"
+  614 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/vary/1.1.2/node_modules/vary"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/cors/2.8.5/node_modules/vary"
+  615 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/accepts/1.3.8/node_modules/accepts"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/accepts"
+  616 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/array-flatten/1.1.1/node_modules/array-flatten"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/array-flatten"
+  617 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/body-parser/1.20.1/node_modules/body-parser"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/body-parser"
+  618 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/content-disposition/0.5.4/node_modules/content-disposition"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/content-disposition"
+  619 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/content-type/1.0.5/node_modules/content-type"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/content-type"
+  620 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/cookie/0.5.0/node_modules/cookie"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/cookie"
+  621 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/cookie-signature/1.0.6/node_modules/cookie-signature"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/cookie-signature"
+  622 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/debug/2.6.9/node_modules/debug"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/debug"
+  623 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/depd/2.0.0/node_modules/depd"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/depd"
+  624 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/encodeurl/1.0.2/node_modules/encodeurl"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/encodeurl"
+  625 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/escape-html/1.0.3/node_modules/escape-html"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/escape-html"
+  626 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/etag/1.8.1/node_modules/etag"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/etag"
+  627 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/finalhandler/1.2.0/node_modules/finalhandler"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/finalhandler"
+  628 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/fresh/0.5.2/node_modules/fresh"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/fresh"
+  629 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/http-errors/2.0.0/node_modules/http-errors"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/http-errors"
+  630 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/merge-descriptors/1.0.1/node_modules/merge-descriptors"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/merge-descriptors"
+  631 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/methods/1.1.2/node_modules/methods"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/methods"
+  632 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/on-finished/2.4.1/node_modules/on-finished"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/on-finished"
+  633 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/parseurl/1.3.3/node_modules/parseurl"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/parseurl"
+  634 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/path-to-regexp/0.1.7/node_modules/path-to-regexp"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/path-to-regexp"
+  635 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/proxy-addr/2.0.7/node_modules/proxy-addr"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/proxy-addr"
+  636 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/qs/6.11.0/node_modules/qs"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/qs"
+  637 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/range-parser/1.2.1/node_modules/range-parser"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/range-parser"
+  638 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/safe-buffer/5.2.1/node_modules/safe-buffer"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/safe-buffer"
+  639 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/send/0.18.0/node_modules/send"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/send"
+  640 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/serve-static/1.15.0/node_modules/serve-static"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/serve-static"
+  641 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/setprototypeof/1.2.0/node_modules/setprototypeof"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/setprototypeof"
+  642 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/statuses/2.0.1/node_modules/statuses"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/statuses"
+  643 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/type-is/1.6.18/node_modules/type-is"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/type-is"
+  644 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/utils-merge/1.0.1/node_modules/utils-merge"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/utils-merge"
+  645 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/vary/1.1.2/node_modules/vary"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/vary"
+  646 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/mime-types/2.1.35/node_modules/mime-types"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/accepts/1.3.8/node_modules/mime-types"
+  647 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/negotiator/0.6.3/node_modules/negotiator"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/accepts/1.3.8/node_modules/negotiator"
+  648 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/mime-db/1.52.0/node_modules/mime-db"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/mime-types/2.1.35/node_modules/mime-db"
+  649 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/bytes/3.1.2/node_modules/bytes"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/body-parser/1.20.1/node_modules/bytes"
+  650 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/content-type/1.0.5/node_modules/content-type"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/body-parser/1.20.1/node_modules/content-type"
+  651 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/debug/2.6.9/node_modules/debug"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/body-parser/1.20.1/node_modules/debug"
+  652 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/depd/2.0.0/node_modules/depd"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/body-parser/1.20.1/node_modules/depd"
+  653 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/destroy/1.2.0/node_modules/destroy"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/body-parser/1.20.1/node_modules/destroy"
+  654 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/http-errors/2.0.0/node_modules/http-errors"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/body-parser/1.20.1/node_modules/http-errors"
+  655 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/iconv-lite/0.4.24/node_modules/iconv-lite"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/body-parser/1.20.1/node_modules/iconv-lite"
+  656 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/on-finished/2.4.1/node_modules/on-finished"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/body-parser/1.20.1/node_modules/on-finished"
+  657 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/qs/6.11.0/node_modules/qs"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/body-parser/1.20.1/node_modules/qs"
+  658 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/raw-body/2.5.1/node_modules/raw-body"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/body-parser/1.20.1/node_modules/raw-body"
+  659 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/type-is/1.6.18/node_modules/type-is"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/body-parser/1.20.1/node_modules/type-is"
+  660 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/unpipe/1.0.0/node_modules/unpipe"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/body-parser/1.20.1/node_modules/unpipe"
+  661 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/ms/2.0.0/node_modules/ms"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/debug/2.6.9/node_modules/ms"
+  662 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/depd/2.0.0/node_modules/depd"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/http-errors/2.0.0/node_modules/depd"
+  663 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/inherits/2.0.4/node_modules/inherits"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/http-errors/2.0.0/node_modules/inherits"
+  664 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/setprototypeof/1.2.0/node_modules/setprototypeof"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/http-errors/2.0.0/node_modules/setprototypeof"
+  665 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/statuses/2.0.1/node_modules/statuses"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/http-errors/2.0.0/node_modules/statuses"
+  666 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/toidentifier/1.0.1/node_modules/toidentifier"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/http-errors/2.0.0/node_modules/toidentifier"
+  667 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/safer-buffer/2.1.2/node_modules/safer-buffer"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/iconv-lite/0.4.24/node_modules/safer-buffer"
+  668 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/ee-first/1.1.1/node_modules/ee-first"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/on-finished/2.4.1/node_modules/ee-first"
+  669 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/side-channel/1.0.4/node_modules/side-channel"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/qs/6.11.0/node_modules/side-channel"
+  670 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/call-bind/1.0.2/node_modules/call-bind"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/side-channel/1.0.4/node_modules/call-bind"
+  671 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/get-intrinsic/1.2.1/node_modules/get-intrinsic"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/side-channel/1.0.4/node_modules/get-intrinsic"
+  672 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/object-inspect/1.12.3/node_modules/object-inspect"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/side-channel/1.0.4/node_modules/object-inspect"
+  673 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/function-bind/1.1.1/node_modules/function-bind"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/call-bind/1.0.2/node_modules/function-bind"
+  674 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/get-intrinsic/1.2.1/node_modules/get-intrinsic"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/call-bind/1.0.2/node_modules/get-intrinsic"
+  675 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/function-bind/1.1.1/node_modules/function-bind"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/get-intrinsic/1.2.1/node_modules/function-bind"
+  676 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/has/1.0.3/node_modules/has"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/get-intrinsic/1.2.1/node_modules/has"
+  677 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/has-proto/1.0.1/node_modules/has-proto"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/get-intrinsic/1.2.1/node_modules/has-proto"
+  678 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/has-symbols/1.0.3/node_modules/has-symbols"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/get-intrinsic/1.2.1/node_modules/has-symbols"
+  679 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/function-bind/1.1.1/node_modules/function-bind"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/has/1.0.3/node_modules/function-bind"
+  680 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/bytes/3.1.2/node_modules/bytes"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/raw-body/2.5.1/node_modules/bytes"
+  681 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/http-errors/2.0.0/node_modules/http-errors"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/raw-body/2.5.1/node_modules/http-errors"
+  682 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/iconv-lite/0.4.24/node_modules/iconv-lite"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/raw-body/2.5.1/node_modules/iconv-lite"
+  683 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/unpipe/1.0.0/node_modules/unpipe"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/raw-body/2.5.1/node_modules/unpipe"
+  684 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/media-typer/0.3.0/node_modules/media-typer"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/type-is/1.6.18/node_modules/media-typer"
+  685 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/mime-types/2.1.35/node_modules/mime-types"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/type-is/1.6.18/node_modules/mime-types"
+  686 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/safe-buffer/5.2.1/node_modules/safe-buffer"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/content-disposition/0.5.4/node_modules/safe-buffer"
+  687 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/debug/2.6.9/node_modules/debug"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/finalhandler/1.2.0/node_modules/debug"
+  688 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/encodeurl/1.0.2/node_modules/encodeurl"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/finalhandler/1.2.0/node_modules/encodeurl"
+  689 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/escape-html/1.0.3/node_modules/escape-html"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/finalhandler/1.2.0/node_modules/escape-html"
+  690 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/on-finished/2.4.1/node_modules/on-finished"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/finalhandler/1.2.0/node_modules/on-finished"
+  691 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/parseurl/1.3.3/node_modules/parseurl"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/finalhandler/1.2.0/node_modules/parseurl"
+  692 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/statuses/2.0.1/node_modules/statuses"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/finalhandler/1.2.0/node_modules/statuses"
+  693 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/unpipe/1.0.0/node_modules/unpipe"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/finalhandler/1.2.0/node_modules/unpipe"
+  694 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/forwarded/0.2.0/node_modules/forwarded"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/proxy-addr/2.0.7/node_modules/forwarded"
+  695 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/ipaddr.js/1.9.1/node_modules/ipaddr.js"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/proxy-addr/2.0.7/node_modules/ipaddr.js"
+  696 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/debug/2.6.9/node_modules/debug"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/send/0.18.0/node_modules/debug"
+  697 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/depd/2.0.0/node_modules/depd"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/send/0.18.0/node_modules/depd"
+  698 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/destroy/1.2.0/node_modules/destroy"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/send/0.18.0/node_modules/destroy"
+  699 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/encodeurl/1.0.2/node_modules/encodeurl"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/send/0.18.0/node_modules/encodeurl"
+  700 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/escape-html/1.0.3/node_modules/escape-html"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/send/0.18.0/node_modules/escape-html"
+  701 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/etag/1.8.1/node_modules/etag"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/send/0.18.0/node_modules/etag"
+  702 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/fresh/0.5.2/node_modules/fresh"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/send/0.18.0/node_modules/fresh"
+  703 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/http-errors/2.0.0/node_modules/http-errors"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/send/0.18.0/node_modules/http-errors"
+  704 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/mime/1.6.0/node_modules/mime"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/send/0.18.0/node_modules/mime"
+  705 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/ms/2.1.3/node_modules/ms"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/send/0.18.0/node_modules/ms"
+  706 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/on-finished/2.4.1/node_modules/on-finished"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/send/0.18.0/node_modules/on-finished"
+  707 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/range-parser/1.2.1/node_modules/range-parser"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/send/0.18.0/node_modules/range-parser"
+  708 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/statuses/2.0.1/node_modules/statuses"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/send/0.18.0/node_modules/statuses"
+  709 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/encodeurl/1.0.2/node_modules/encodeurl"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/serve-static/1.15.0/node_modules/encodeurl"
+  710 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/escape-html/1.0.3/node_modules/escape-html"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/serve-static/1.15.0/node_modules/escape-html"
+  711 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/parseurl/1.3.3/node_modules/parseurl"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/serve-static/1.15.0/node_modules/parseurl"
+  712 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/send/0.18.0/node_modules/send"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/serve-static/1.15.0/node_modules/send"
+  713 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/bson/4.7.2/node_modules/bson"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/mongoose/6.12.0/node_modules/bson"
+  714 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/kareem/2.5.1/node_modules/kareem"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/mongoose/6.12.0/node_modules/kareem"
+  715 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/mongodb/4.17.1/node_modules/mongodb"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/mongoose/6.12.0/node_modules/mongodb"
+  716 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/mpath/0.9.0/node_modules/mpath"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/mongoose/6.12.0/node_modules/mpath"
+  717 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/mquery/4.0.3/node_modules/mquery"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/mongoose/6.12.0/node_modules/mquery"
+  718 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/ms/2.1.3/node_modules/ms"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/mongoose/6.12.0/node_modules/ms"
+  719 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/sift/16.0.1/node_modules/sift"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/mongoose/6.12.0/node_modules/sift"
+  720 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/buffer/5.7.1/node_modules/buffer"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/bson/4.7.2/node_modules/buffer"
+  721 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/base64-js/1.5.1/node_modules/base64-js"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/buffer/5.7.1/node_modules/base64-js"
+  722 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/ieee754/1.2.1/node_modules/ieee754"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/buffer/5.7.1/node_modules/ieee754"
+  723 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/@mongodb-js/saslprep/1.1.0/node_modules/@mongodb-js/saslprep"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/mongodb/4.17.1/node_modules/@mongodb-js/saslprep"
+  724 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/bson/4.7.2/node_modules/bson"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/mongodb/4.17.1/node_modules/bson"
+  725 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/mongodb-connection-string-url/2.6.0/node_modules/mongodb-connection-string-url"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/mongodb/4.17.1/node_modules/mongodb-connection-string-url"
+  726 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/socks/2.7.1/node_modules/socks"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/mongodb/4.17.1/node_modules/socks"
+  727 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/@types/whatwg-url/8.2.2/node_modules/@types/whatwg-url"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/mongodb-connection-string-url/2.6.0/node_modules/@types/whatwg-url"
+  728 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/whatwg-url/11.0.0/node_modules/whatwg-url"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/mongodb-connection-string-url/2.6.0/node_modules/whatwg-url"
+  729 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/@types/node/20.6.0/node_modules/@types/node"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/@types/whatwg-url/8.2.2/node_modules/@types/node"
+  730 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/@types/webidl-conversions/7.0.0/node_modules/@types/webidl-conversions"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/@types/whatwg-url/8.2.2/node_modules/@types/webidl-conversions"
+  731 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/tr46/3.0.0/node_modules/tr46"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/whatwg-url/11.0.0/node_modules/tr46"
+  732 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/webidl-conversions/7.0.0/node_modules/webidl-conversions"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/whatwg-url/11.0.0/node_modules/webidl-conversions"
+  733 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/punycode/2.3.0/node_modules/punycode"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/tr46/3.0.0/node_modules/punycode"
+  734 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/ip/2.0.0/node_modules/ip"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/socks/2.7.1/node_modules/ip"
+  735 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/smart-buffer/4.2.0/node_modules/smart-buffer"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/socks/2.7.1/node_modules/smart-buffer"
+  736 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/debug/4.3.4/node_modules/debug"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/mquery/4.0.3/node_modules/debug"
+  737 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/ms/2.1.2/node_modules/ms"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/debug/4.3.4/node_modules/ms"
+  738 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/node-bin-setup/1.1.3/node_modules/node-bin-setup"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/node/16.20.2/node_modules/node-bin-setup"
+  739 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/sparse-bitfield/3.0.3/node_modules/sparse-bitfield"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/@mongodb-js/saslprep/1.1.0/node_modules/sparse-bitfield"
+  740 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/memory-pager/1.5.0/node_modules/memory-pager"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/sparse-bitfield/3.0.3/node_modules/memory-pager"
+  741 debug pnpm:stage: 
+    prefix: "/app"
+    stage: "importing_done"
+  742 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/cors/2.8.5/node_modules/cors"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/cors"
+  743 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/dotenv/8.6.0/node_modules/dotenv"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/dotenv"
+  744 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/express/4.18.2/node_modules/express"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/express"
+  745 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/mongoose/6.12.0/node_modules/mongoose"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/mongoose"
+  746 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/node/16.20.2/node_modules/node"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/node"
+  747 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/accepts/1.3.8/node_modules/accepts"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/accepts"
+  748 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/array-flatten/1.1.1/node_modules/array-flatten"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/array-flatten"
+  749 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/body-parser/1.20.1/node_modules/body-parser"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/body-parser"
+  750 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/bson/4.7.2/node_modules/bson"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/bson"
+  751 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/content-disposition/0.5.4/node_modules/content-disposition"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/content-disposition"
+  752 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/content-type/1.0.5/node_modules/content-type"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/content-type"
+  753 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/cookie/0.5.0/node_modules/cookie"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/cookie"
+  754 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/cookie-signature/1.0.6/node_modules/cookie-signature"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/cookie-signature"
+  755 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/debug/2.6.9/node_modules/debug"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/debug"
+  756 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/depd/2.0.0/node_modules/depd"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/depd"
+  757 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/encodeurl/1.0.2/node_modules/encodeurl"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/encodeurl"
+  758 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/escape-html/1.0.3/node_modules/escape-html"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/escape-html"
+  759 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/etag/1.8.1/node_modules/etag"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/etag"
+  760 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/finalhandler/1.2.0/node_modules/finalhandler"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/finalhandler"
+  761 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/fresh/0.5.2/node_modules/fresh"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/fresh"
+  762 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/http-errors/2.0.0/node_modules/http-errors"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/http-errors"
+  763 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/kareem/2.5.1/node_modules/kareem"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/kareem"
+  764 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/merge-descriptors/1.0.1/node_modules/merge-descriptors"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/merge-descriptors"
+  765 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/methods/1.1.2/node_modules/methods"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/methods"
+  766 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/mongodb/4.17.1/node_modules/mongodb"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/mongodb"
+  767 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/mpath/0.9.0/node_modules/mpath"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/mpath"
+  768 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/mquery/4.0.3/node_modules/mquery"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/mquery"
+  769 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/ms/2.1.3/node_modules/ms"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/ms"
+  770 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/node-bin-setup/1.1.3/node_modules/node-bin-setup"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/node-bin-setup"
+  771 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/object-assign/4.1.1/node_modules/object-assign"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/object-assign"
+  772 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/on-finished/2.4.1/node_modules/on-finished"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/on-finished"
+  773 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/parseurl/1.3.3/node_modules/parseurl"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/parseurl"
+  774 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/path-to-regexp/0.1.7/node_modules/path-to-regexp"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/path-to-regexp"
+  775 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/proxy-addr/2.0.7/node_modules/proxy-addr"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/proxy-addr"
+  776 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/qs/6.11.0/node_modules/qs"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/qs"
+  777 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/range-parser/1.2.1/node_modules/range-parser"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/range-parser"
+  778 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/safe-buffer/5.2.1/node_modules/safe-buffer"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/safe-buffer"
+  779 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/send/0.18.0/node_modules/send"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/send"
+  780 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/serve-static/1.15.0/node_modules/serve-static"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/serve-static"
+  781 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/setprototypeof/1.2.0/node_modules/setprototypeof"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/setprototypeof"
+  782 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/sift/16.0.1/node_modules/sift"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/sift"
+  783 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/statuses/2.0.1/node_modules/statuses"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/statuses"
+  784 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/type-is/1.6.18/node_modules/type-is"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/type-is"
+  785 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/utils-merge/1.0.1/node_modules/utils-merge"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/utils-merge"
+  786 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/vary/1.1.2/node_modules/vary"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/vary"
+  787 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/@mongodb-js/saslprep/1.1.0/node_modules/@mongodb-js/saslprep"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/@mongodb-js/saslprep"
+  788 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/buffer/5.7.1/node_modules/buffer"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/buffer"
+  789 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/bytes/3.1.2/node_modules/bytes"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/bytes"
+  790 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/destroy/1.2.0/node_modules/destroy"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/destroy"
+  791 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/ee-first/1.1.1/node_modules/ee-first"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/ee-first"
+  792 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/forwarded/0.2.0/node_modules/forwarded"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/forwarded"
+  793 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/iconv-lite/0.4.24/node_modules/iconv-lite"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/iconv-lite"
+  794 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/inherits/2.0.4/node_modules/inherits"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/inherits"
+  795 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/ipaddr.js/1.9.1/node_modules/ipaddr.js"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/ipaddr.js"
+  796 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/media-typer/0.3.0/node_modules/media-typer"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/media-typer"
+  797 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/mime/1.6.0/node_modules/mime"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/mime"
+  798 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/mime-types/2.1.35/node_modules/mime-types"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/mime-types"
+  799 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/mongodb-connection-string-url/2.6.0/node_modules/mongodb-connection-string-url"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/mongodb-connection-string-url"
+  800 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/negotiator/0.6.3/node_modules/negotiator"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/negotiator"
+  801 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/raw-body/2.5.1/node_modules/raw-body"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/raw-body"
+  802 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/side-channel/1.0.4/node_modules/side-channel"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/side-channel"
+  803 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/socks/2.7.1/node_modules/socks"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/socks"
+  804 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/toidentifier/1.0.1/node_modules/toidentifier"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/toidentifier"
+  805 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/unpipe/1.0.0/node_modules/unpipe"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/unpipe"
+  806 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/@types/whatwg-url/8.2.2/node_modules/@types/whatwg-url"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/@types/whatwg-url"
+  807 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/base64-js/1.5.1/node_modules/base64-js"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/base64-js"
+  808 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/call-bind/1.0.2/node_modules/call-bind"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/call-bind"
+  809 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/get-intrinsic/1.2.1/node_modules/get-intrinsic"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/get-intrinsic"
+  810 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/ieee754/1.2.1/node_modules/ieee754"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/ieee754"
+  811 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/ip/2.0.0/node_modules/ip"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/ip"
+  812 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/mime-db/1.52.0/node_modules/mime-db"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/mime-db"
+  813 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/object-inspect/1.12.3/node_modules/object-inspect"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/object-inspect"
+  814 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/safer-buffer/2.1.2/node_modules/safer-buffer"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/safer-buffer"
+  815 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/smart-buffer/4.2.0/node_modules/smart-buffer"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/smart-buffer"
+  816 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/sparse-bitfield/3.0.3/node_modules/sparse-bitfield"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/sparse-bitfield"
+  817 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/whatwg-url/11.0.0/node_modules/whatwg-url"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/whatwg-url"
+  818 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/@types/node/20.6.0/node_modules/@types/node"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/@types/node"
+  819 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/@types/webidl-conversions/7.0.0/node_modules/@types/webidl-conversions"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/@types/webidl-conversions"
+  820 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/function-bind/1.1.1/node_modules/function-bind"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/function-bind"
+  821 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/has/1.0.3/node_modules/has"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/has"
+  822 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/has-proto/1.0.1/node_modules/has-proto"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/has-proto"
+  823 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/has-symbols/1.0.3/node_modules/has-symbols"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/has-symbols"
+  824 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/memory-pager/1.5.0/node_modules/memory-pager"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/memory-pager"
+  825 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/tr46/3.0.0/node_modules/tr46"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/tr46"
+  826 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/webidl-conversions/7.0.0/node_modules/webidl-conversions"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/webidl-conversions"
+  827 debug pnpm:link: 
+    target: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/.registry.npmjs.org/punycode/2.3.0/node_modules/punycode"
+    link: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/punycode"
+  828 error pnpm: 
+    message: 
+      errno: -2
+      code: "ENOENT"
+      syscall: "chmod"
+      path: "/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/node/bin/node"
+    err: 
+      name: "Error"
+      message: "ENOENT: no such file or directory, chmod '/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/node/bin/node'"
+      code: "ENOENT"
+      stack: "Error: ENOENT: no such file or directory, chmod '/rbd/pnpm-volume/d90aaeb7-3dcd-4559-9d29-731847bdf527/node_modules/node/bin/node'"
