@@ -2,7 +2,9 @@
 
 [Link](https://www.freecodecamp.org/learn) to freecodecamp. Check out their course offerings and support their mission.
 
-## Completed Courses
+## Core Curriculum
+
+### Completed Courses
 
 The following is a list of completed courses I completed from freecodecamp with the source code for the projects and certifications.
 
@@ -13,18 +15,18 @@ The following is a list of completed courses I completed from freecodecamp with 
 - Scientific Computing with Python Certification
 - Data Analysis with Python Certification
 
-## Courses in Progress
+### Courses in Progress
 
 - Quality Assurance Certification
 
-## Courses Not Taken
+### Courses Not Taken
 
-- Data Visualization Certification
 - Information Security Certification
 - Machine Learning with Python Certification
 
-## Courses Not Necessary for Me
+### Courses Not Necessary for Me
 
 - College Algebra with Python Cert.
   - I have the calculus sequence (single var to multivar) and understand how to use the arithmetic functionalities in python
 - Responsive Web Design Certification
+- Data Visualization Certification
