@@ -8,6 +8,7 @@
 
 The following is a list of completed courses I completed from freecodecamp with the source code for the projects and certifications.
 
+- Responsive Web Design Certification
 - Javascript Data Structures and Algorithms Certification
 - Front End Development Libraries Certification
 - Relational Database Certification
@@ -28,5 +29,4 @@ The following is a list of completed courses I completed from freecodecamp with 
 
 - College Algebra with Python Cert.
   - I have the calculus sequence (single var to multivar) and understand how to use the arithmetic functionalities in python
-- Responsive Web Design Certification
 - Data Visualization Certification
